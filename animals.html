@@ -56,8 +56,7 @@
     </div>
 </div>
 <p>Row with animals breaks first because col-md is responsive till screen size is 768px</p>
-</body>
-</html>
+
 <div class="container">
     <img src="photo-goat.jpg" class="img-fluid" style="height: 250px;width: 250px;" alt="...">
     <img src="rabbit-jpg.jpg" class="img-fluid" style="height: 250px;width: 250px;" alt="...">
@@ -73,7 +72,7 @@
       <img src="rabbit-jpg.jpg" class="img-thumbnail" style="height: 250px;width: 250px ;" alt="...">
     </a>
 
-    <a target="_blank" href="African_elephant.PNG.jpg">
+    <a target="_blank" href="elephant.png">
       <img src="elephant.png" class="img-thumbnail"style="height: 250px;width: 250px ;" alt="...">
     </a>
   </div><br><br>
@@ -170,3 +169,58 @@
         </div>
 
       </div>
+
+      <form>
+        <div class="form-group mb-3">
+          <label for="emailControlInput" class="form-label h5">Email address</label>
+          <input type="email" class="form-control" id="emailControlInput" placeholder="name@example.com">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="animalControlInput" class="form-label h5">Animal</label>
+          <input type="text" class="form-control" id="animalControlInput" placeholder="Enter your animal">
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Sign up for newsletter?
+          </label>
+        </div><br>
+
+        <div>
+          <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </div>
+
+      </form>
+
+      <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="photo-goat.jpg" alt="goat" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">goat</h5>
+            <p class="card-text">The domestic goat or simply goat (Capra hircus) is a domesticated species of goat-antelope typically kept as livestock. It was domesticated from the wild goat (C. aegagrus) of Southwest Asia and Eastern Europe.</p>
+            <button type="button" class="btn btn-link btn-outline-primary" onclick="location.href='https://en.wikipedia.org/wiki/Goat">Expand For More</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="rabbit-jpg.jpg" alt="rabbit" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">rabbit</h5>
+            <p class="card-text">Rabbits, or bunnies, are small mammals in the family Leporidae (along with the hare) of the order Lagomorpha (along with the pika). Oryctolagus cuniculus includes the European rabbit species and its descendants, the world's 305 breeds[1] of domestic rabbit.  </p>
+            <button type="button" class="btn btn-link btn-outline-primary" onclick="location.href='https://en.wikipedia.org/wiki/Rabbit">Expand For More</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="elephant.png" alt="African Bush Elephant" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">African Bush Elephant</h5>
+            <p class="card-text">The African bush elephant (Loxodonta africana), also known as the African savanna elephant, is one of two living African elephant species. It is the largest living terrestrial animal, with bulls reaching a shoulder height of up to 3.96 m (13.0 ft) and a body mass of up to 10.4 t (11.5 short tons).</p>
+            <button type="button" class="btn btn-link btn-outline-primary" onclick="location.href='https://en.wikipedia.org/wiki/African_bush_elephant">Expand For More</button>
+          </div>
+        </div>
+        </div>
+
+    </body>
+    </html>
